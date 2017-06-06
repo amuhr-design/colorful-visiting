@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: sans-serif;
+}
+header {
+	height: auto;
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+/* button design */
+.buttonbox {
+	background-color: white;
+	color: aliceblue;
+	text-align: center;
+}
+.linkbutton {
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	padding: 5px;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+li {
+	margin: 20px;
+}
+/* link design */
+a {
+	text-decoration: none;
+}
+/* link 1 */
+.hellblau:hover {
+	background-color: lightblue;
+	color: black;
+}
+.hellblau:visited {
+	background-color: lightblue;
+}
+.hellblau:active {
+	background-color: lightblue;
+}
+/* link 2 */
+.gruen:hover {
+	background-color: olive;
+	color: black;
+}
+.gruen:visited {
+	background-color: olive;
+}
+.gruen:active {
+	background-color: olive;
+}
+/* link 3 */
+.rot:hover {
+	background-color: darkred;
+	color: black;
+}
+.rot:visited {
+	background-color: darkred;
+}
+.rot:active {
+	background-color: darkred;
+}
+/* link-ziele/flächen*/
+.flaeche {
+	color: yellow;
+	width: 100%;
+	min-height: 1000px;
+	background-color: darkgray;
+}
+.flaeche2 {
+	color: yellow;
+	width: 100%;
+	min-height: 1000px;
+	background-color: gray;
+}
+.flaeche3 {
+	color: yellow;
+	width: 100%;
+	min-height: 1000px;
+	background-color: dimgray;
+}
